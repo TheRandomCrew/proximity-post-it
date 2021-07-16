@@ -1,7 +1,8 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true
+    es2021: true,
+    "jest/globals": true
   },
   extends: [
     'plugin:react/recommended',
@@ -19,6 +20,11 @@ module.exports = {
   plugins: [
     'react',
     '@typescript-eslint'
+  ],
+  "overrides": [
+    {
+      "files": [ "src/*.{js,jsx,ts,tsx}", "src/**/*.{js,jsx,ts,tsx}" ],
+    }
   ],
   rules: {
     "no-use-before-define": "off",
