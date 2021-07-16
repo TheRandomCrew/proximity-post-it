@@ -37,8 +37,6 @@
   - [Show your support and acknowledges](#show-your-support-and-acknowledges)
   - [License](#license)
 
-![app-banner][]
-
 ## The Project
 
 You are working on a new feed to promote the company social network activity, you are provided with access to the account’s posts and comments, your job is to integrate that activity into the website.
@@ -104,13 +102,7 @@ Comments API: <https://jsonplaceholder.typicode.com/comments>
 
 - Enter [localhost:3000][] in a browser for the frontend.
 
-![docker-build](docs/docker-build.gif)
-
-![docker-up](docs/docker-up.gif)
-
 You can also test using docker, run `docker-compose up test` or `docker-compose run --rm test`
-
-![docker-test](docs/docker-test.gif)
 
 Not a fan of Docker or need more information? Continue for instructions to learn more about how to setup your PC for run the frontend!
 
@@ -127,8 +119,6 @@ npm i && npm start
 ```
 
 Then open [http://localhost:3000/](http://localhost:3000/) to see the app.
-
-![app](docs/app.gif)
 
 ### Available Scripts
 
@@ -196,7 +186,7 @@ Please read: <https://prettier.io/docs/en/integrating-with-linters.html>.
 
 ## Potential Features
 
-- [ ] Create a landing page.
+- [ ] Update style.
 - [ ] \<Insert your great idea here!>.
 
 ## Author
