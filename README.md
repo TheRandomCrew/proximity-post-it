@@ -208,8 +208,8 @@ Feel free to check the [issues page][issues-url].
 
 This project is possible with help from:
 
-- Vite configuration from [meijin][vite-conf]
-- Lint configuration from [Camilo Martinez][lint-conf]
+- Vite configuration from [meijin][vite-conf] and [simerlec][]
+- Lint configuration from [Camilo Martinez][lint-conf] and [simerlec][]
 - Icons from [![Icons8][icons8-logo]][icons8] Icons8
 - Banner from [canva.com](https://www.canva.com)
 - Favicon from [favicon.io](https://favicon.io/emoji-favicons/)
@@ -253,3 +253,4 @@ Feel free to fork this project and improve it!
 [api-logo]: https://spoonacular.com/images/spoonacular-logo-b.svg
 [lint-conf]: https://dev.to/equiman/powerful-react-project-setup-3k3l
 [vite-conf]: https://github.com/TeXmeijin/vite-react-ts-tailwind-starter
+[simerlec]: https://github.com/simerlec/vite-react-ts-starter
