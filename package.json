@@ -1,0 +1,91 @@
+{
+  "name": "proximity-post-it",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "npm run build && node server.js",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "lint:l": "eslint src/ --cache -f table",
+    "lint:f": "eslint src/ --fix",
+    "prettier:c": "prettier src/ --check",
+    "test": "jest --coverage -w =100",
+    "test:c": "jest --coverage --watchAll=false --ci --passWithNoTests",
+    "test:cw": "jest --coverage --watchAll"
+  },
+  "dependencies": {
+    "react": "^17.0.0",
+    "react-cool-dimensions": "^1.3.2",
+    "react-dom": "^17.0.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.1.9",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.3.2",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-router-dom": "^5.1.7",
+    "@typescript-eslint/eslint-plugin": "^4.28.3",
+    "@typescript-eslint/parser": "^4.28.3",
+    "@vitejs/plugin-react-refresh": "^1.3.1",
+    "autoprefixer": "10.2.5",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "husky": "^7.0.1",
+    "jest-coverage-thresholds-bumper": "^1.0.0",
+    "lint-staged": "^11.0.1",
+    "postcss": "8.2.10",
+    "prettier": "^2.2.1",
+    "tailwindcss": "2.1.1",
+    "typescript": "4.2.4",
+    "vite": "2.2.1"
+  },
+  "engines": {
+    "node": "~14.17.0",
+    "npm": "^6.14.13"
+  },
+  "author": {
+    "name": "Israel Antonio Rosales Laguan",
+    "email": "israellaguan@gmail.com",
+    "gitHub": "https://github.com/Israel-Laguan",
+    "linkedIn": "https://www.linkedin.com/in/israellaguan/",
+    "hireable": true
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --cache --fix",
+      "npm run test:c",
+      "npm run test:tb",
+      "git add package.json"
+    ],
+    "*.{js,jsx,ts,tsx,css,md}": "prettier --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Israel-Laguan/proximity-post-it.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Israel-Laguan/proximity-post-it/issues"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "license": "ISC"
+}

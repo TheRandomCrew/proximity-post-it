@@ -1,0 +1,22 @@
+version: "3"
+services:
+    frontend:
+        container_name: proximity-post-it
+        build: ./
+        image: israellaguan/proximity-post-it
+        tty: true
+        ports:
+            - "3000:3000"
+        volumes:
+            - .:/usr/src/app
+        command: [ "npm", "start" ]
+    test:
+        container_name: proximity-post-it
+        build: ./
+        image: israellaguan/proximity-post-it
+        tty: true    
+        environment:
+            - CI=true
+        volumes:
+            - .:/usr/src/app
+        command: [ "npm", "test" ]

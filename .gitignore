@@ -1,0 +1,20 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+
+# Coverage directory used by tools like istanbul
+coverage
+*.lcov
+
+# testing
+/coverage
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables file
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
