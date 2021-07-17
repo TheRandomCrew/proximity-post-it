@@ -1,38 +1,50 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 import { RootState } from './store'
 
-interface PostState {
-  value: any[]
-  lastCommentId: number
+export type Post = {
+  id: string;
+  title: string;
+  email: string;
+  body: string;
+  comments: Comment[];
 }
 
-const initialState: PostState = { value: [], lastCommentId: 0 }
+export type Comment = {
+  id: string;
+  name: string;
+  email: string;
+  body: string;
+  postId: string;
+}
+
+interface PostState {
+  posts: Post[]
+}
+
+const initialState: PostState = { posts: [] }
 
 export const postSlice = createSlice({
   name: 'post',
   initialState,
   reducers: {
-    savePosts: (state, action: PayloadAction<any>) => {
-      state.value = action.payload.posts
-      state.lastCommentId = action.payload.lastCommentId
+    savePosts: (state, action: PayloadAction<PostState>) => {
+      state.posts = action.payload.posts
     },
     sendComment: (state, action: PayloadAction<any>) => {
       const data = action.payload
-      console.log(data, action)
-      const updatedPosts = state.value.map(post => {
-        if (post.id === data.id) {
-          return { ...post, comments: [...post.comments, { ...data, id: state.lastCommentId + 1, postId: data.id }] }
+      const updatedPosts = state.posts.map(post => {
+        if (post.id === data.postId) {
+          return { ...post, comments: [...post.comments, ...data] }
         } else {
           return post
         }
       })
-      state.value = updatedPosts
-      ++state.lastCommentId
+      state.posts = updatedPosts
     },
   },
 })
 
-export const selectPosts = (state: RootState) => state.posts.value
+export const selectPosts = (state: RootState) => state.posts.posts
 
 export const { savePosts, sendComment } = postSlice.actions
 
