@@ -100,7 +100,7 @@ Comments API: <https://jsonplaceholder.typicode.com/comments>
 > docker-compose up frontend
 ```
 
-- Enter [localhost:3000][] in a browser for the frontend.
+- Enter `localhost:3000` in a browser for the frontend.
 
 You can also test using docker, run `docker-compose up test` or `docker-compose run --rm test`
 
@@ -118,7 +118,7 @@ cd proximity-post-it
 npm i && npm start
 ```
 
-Then open [http://localhost:3000/](http://localhost:3000/) to see the app.
+Then open `localhost:3000` to see the app.
 
 ### Available Scripts
 
@@ -127,7 +127,7 @@ In the project directory, you can run:
 #### `npm start`
 
 Runs the app in the development mode.
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open `localhost:3000` to view it in the browser.
 
 The page will reload if you make edits.
 You will also see any lint errors in the console.
