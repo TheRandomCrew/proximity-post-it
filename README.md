@@ -51,8 +51,15 @@ You are responsible for:
 - Presenting the data in the view.
 - Relate comments to posts.
 
-Posts API: <https://jsonplaceholder.typicode.com/posts>
-Comments API: <https://jsonplaceholder.typicode.com/comments>
+
+
+|                                                   |
+| :------------------------------------------------------------------------------------------------------: |
+|                                         Posts API:                       |
+|                          <https://jsonplaceholder.typicode.com/posts>                    |
+|                                         Comments API:                       |
+|                          <https://jsonplaceholder.typicode.com/comments>                   |
+
 
 ### Features
 
