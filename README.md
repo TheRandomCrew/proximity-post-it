@@ -203,7 +203,7 @@ Please read: <https://prettier.io/docs/en/integrating-with-linters.html>.
             </div>
             <div>
                 <img align="top" width="26px" src="https://img.icons8.com/color/20/000000/linkedin.png" />
-                Connect to<a href="https://www.linkedin.com/in/israellaguan">my Linkedin</a>   
+                Connect to<a href="https://www.linkedin.com/in/israellaguan"> my Linkedin</a>   
             </div>
         </th>
     </tr>
