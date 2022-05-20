@@ -62,9 +62,8 @@ You are responsible for:
 
 
 ### Features
-
-![javascript][]
-![react][]
+[![][javascript]][javascript-url] 
+[![][react]][react-url] 
 
 - Sets `eslint` rules
 - Linters
@@ -261,3 +260,8 @@ Feel free to fork this project and improve it!
 [lint-conf]: https://dev.to/equiman/powerful-react-project-setup-3k3l
 [vite-conf]: https://github.com/TeXmeijin/vite-react-ts-tailwind-starter
 [simerlec]: https://github.com/simerlec/vite-react-ts-starter
+
+
+<!-- URL -->
+[javascript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+[react-url]: https://reactjs.org/
