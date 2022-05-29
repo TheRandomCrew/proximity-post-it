@@ -53,12 +53,12 @@ You are responsible for:
 
 
 
-|                                                   |
-| :------------------------------------------------------------------------------------------------------: |
-|                                         Posts API:                       |
-|                          <https://jsonplaceholder.typicode.com/posts>                    |
-|                                         Comments API:                       |
-|                          <https://jsonplaceholder.typicode.com/comments>                   |
+|                                                 |
+| :---------------------------------------------: |
+|                   Posts API:                    |
+|  <https://jsonplaceholder.typicode.com/posts>   |
+|                  Comments API:                  |
+| <https://jsonplaceholder.typicode.com/comments> |
 
 
 ### Features
