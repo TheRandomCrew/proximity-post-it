@@ -4338,10 +4338,10 @@ quick-lru@^5.1.1:
   resolved "https://registry.yarnpkg.com/quick-lru/-/quick-lru-5.1.1.tgz#366493e6b3e42a3a6885e2e99d18f80fb7a8c932"
   integrity sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==
 
-react-cool-dimensions@~3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/react-cool-dimensions/-/react-cool-dimensions-3.0.0.tgz#6738fec7091e6c7a2dc8b3a959e7cfe69bcebc71"
-  integrity sha512-UVQC4vgwvYtHqo3vzG6j840p1QOSHrRbL0mZMRTQqz4XfB4qDmYW1V7OQmSVEQ8VY7kLLj4K2A15bRNM3nf+8A==
+react-cool-dimensions@~3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/react-cool-dimensions/-/react-cool-dimensions-3.0.1.tgz#b419c0386957a08e75acf7a4e6578c77f29b0f78"
+  integrity sha512-DUsDB5WUN1Qh6fJJlBtqFKCktrZCPRYcVn8NTeM6hP/5AhZNjDOa2sC2Dg0EM3WUObPDNV5nFLA34vHQfahUeg==
 
 react-dom@~18.2.0:
   version "18.2.0"
