@@ -20,7 +20,7 @@
     "react-cool-dimensions": "~3.0.1",
     "react-dom": "~18.2.0",
     "react-redux": "~8.0.7",
-    "react-router-dom": "~6.11.0"
+    "react-router-dom": "~6.11.2"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "~5.16.5",
